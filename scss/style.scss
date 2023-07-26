@@ -1,0 +1,42 @@
+@import 'reset';
+@import 'fonts';
+@import 'vars';
+@import 'base';
+
+@import 'mixin';
+
+
+// blocks
+@import 'common/btn';
+@import 'blocks/header';
+@import 'blocks/main-section';
+
+@import 'client/client-section';
+
+@import 'digital/digital-section';
+
+@import 'about-client/desc-client';
+
+@import 'revies/revies';
+@import 'revies/img-block';
+
+
+@import 'span/span';
+@import 'span/span-block';
+
+
+@import 'footer/main';
+@import 'footer/lefts';
+@import 'footer/right';
+
+
+@import 'features/explain';
+@import 'features/left-side';
+@import 'features/right-side';
+@import 'features/text'
+
+
+
+
+
+

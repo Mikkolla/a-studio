@@ -1,0 +1,13 @@
+.footer{
+   
+}
+
+.container-last{
+    display: flex;
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+}

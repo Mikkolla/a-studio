@@ -1,0 +1,25 @@
+.easy {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.client-tex {
+    color: $black;
+text-align: center;
+font-family: $ff-main;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.client-desc {
+    color: $grey;
+text-align: center;
+font-family: $ff-main;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+max-width: 588px;
+}

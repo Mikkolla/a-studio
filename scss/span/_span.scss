@@ -1,0 +1,93 @@
+.span-block {
+   
+   
+   padding: 0 20px;
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+   border-radius: 60px;
+border: 1px solid #F1F1F1;
+background: #FFF;
+
+/* Shadow_1 */
+box-shadow: 10px 20px 50px 0px rgba(0, 0, 0, 0.15);
+width:470px px;
+
+
+height: 90px;
+margin-top: 102px;
+
+
+
+
+}
+.input {
+    
+    border: none;
+    
+    outline: none;
+    font-family: $ff-main;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 0px;
+    
+    
+    
+
+    color: #959595;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+width: 210px;
+@include tablet{
+    width: 500px;
+    display: flex;
+    flex-direction: column  ;
+
+} 
+
+
+
+
+
+}
+
+
+
+
+.a-test{
+    
+    
+    
+    border: none;
+    border-radius: 60px;
+background: #2639ED;
+display: inline-flex;
+padding: 20px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    
+
+color: $white;
+font-family: $ff-main;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.04px;
+padding-left: 40px;
+
+  
+
+
+
+
+}
+
+
+

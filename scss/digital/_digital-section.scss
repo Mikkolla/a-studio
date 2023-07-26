@@ -1,0 +1,100 @@
+.digital {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 90px;
+
+    @include tablet{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+
+    }
+    
+    
+}
+
+.img-digital {
+    position: relative;
+    z-index: -1;
+
+    &__img{
+        position: relative;
+        border-radius: 0px 0px 0px 200px;
+
+       
+            
+
+            @include tablet {
+                border-radius:12px;
+                width: 100%;
+                
+            }
+        
+        
+    }
+
+    .paul{
+        position: relative;
+        border-radius: 0px 0px 0px 200px;
+        @include tablet{
+            border-radius:12px;
+                width: 100%;
+        }
+    }
+    
+
+    &__img{
+        &::before{
+            bottom: -1021px;
+            right: 0;
+            position: absolute  ;
+            content: '';
+            display: block;
+            width: 129px;
+            height: 129px;
+            border-radius: 50%;
+            
+            background: #e42803;
+            z-index: 1;
+            
+
+        }
+    }
+}
+
+
+
+
+
+.digital-box {
+}
+.digital-text {
+    color: $black;
+font-family: $ff-main;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 468px;
+@include tablet{
+    padding-left: 20px;
+    
+}
+
+}
+.digital-desc {
+    color: $grey;
+    font-family: $ff-main;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    max-width: 572px;
+
+    @include tablet{
+        margin-top: 10px;
+        padding-left: 20px;
+
+
+    }
+}

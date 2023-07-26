@@ -1,0 +1,122 @@
+a{
+    color: $black;
+}
+.community {
+    display: flex;
+    margin-left: 200px;
+    gap: 80px;
+    @include tablet{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        margin-top: 200px;
+        padding-right: 2200px;
+        margin:0;
+        margin-top: 80px;
+        padding: 0;
+
+    }
+    
+}
+.design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-logo-can {
+}
+.design-a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.company {
+}
+.main-logo-company {
+}
+.company-a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.support {
+}
+.main-logo-support {
+}
+.support-a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact {
+}
+.main-logo-contact {
+    
+}
+.contact-a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+
+
+
+
+
+
+.main-logo-can {
+    
+    color: $black;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.design-a {
+    margin-top: 10px;
+}
+.company {
+}
+.main-logo-company {
+    color: $black;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.company-a {
+}
+.support {
+}
+.main-logo-support {
+    color: $black;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.support-a {
+}
+.contact {
+}
+.main-logo-contact {
+    color: $black;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;margin-bottom: 20px;
+}
+.contact-a {
+}
+

@@ -1,0 +1,62 @@
+
+
+.span {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 75px;
+background: #c4d8f1;
+width: 1197px;
+height: 292px;
+margin-top: 150px;
+margin-bottom: 150px;
+@include tablet{
+    width: 500px;
+    display: flex;
+    flex-direction: column
+    gap 200px;
+
+} 
+    
+}
+.main-box {
+   display: flex;
+   gap: 80px;
+  
+}
+.desc-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+   
+   
+    margin-left: 92px;
+
+
+   
+}
+.subscribe {
+    color:$black;
+font-family: $ff-main;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sub-desc {
+    color: $grey;
+font-family: $ff-main;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+@include tablet{
+    display: none;
+    
+}
+}
+
+.forms{
+    margin-top: 16px;
+}
+

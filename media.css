@@ -1,0 +1,40 @@
+@media screen and (max-width:992px){
+    #burger{
+        display: inline-block;
+    }
+    .header__ul{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 60%;
+        height: 60%;
+        background: #2639ED;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform:translateX(-120%) ;
+        transition: .2s all ease-in-out;
+
+    }
+
+    .header__a{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .header__ul._active{
+        transform: translateX(0);
+
+
+    }
+
+
+
+
+
+
+
+}
+
+
+

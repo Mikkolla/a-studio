@@ -1,0 +1,143 @@
+.features{
+    display: flex;
+    mask-type: 40px;
+    margin-bottom: 50px;
+    margin-top: 90px;
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.explain{
+    margin-top: 400px;
+    padding-right: 100px;
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+}
+.explain-img {
+    display: flex;
+    @include tablet{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        
+    }
+    
+    
+
+    
+}
+.question {
+    color: $black;
+    font-family: $ff-main;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 358px;
+    margin-bottom: 40px;
+    
+    @include tablet{
+        margin-left: 50px;
+    }
+}
+.explain-desc {
+    color: $grey;
+font-family: $ff-main;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+max-width: 396px;
+@include tablet{
+    margin-left: 50px;
+}
+}
+
+.box-intro{
+        color: $black;
+    text-align: center;
+    font-family: $ff-main;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+align-items: center;
+
+    &__green{
+        
+        
+        padding-left: 50px;
+        
+        
+    }
+
+}
+
+.box-desc{
+    color: $grey;
+text-align: center;
+font-family: $ff-main;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+
+max-width: 245px;
+margin-top: 27px;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+
+
+
+
+.explain-img{
+
+
+}
+
+.box-intro{
+
+    &__point{
+        max-width: 167px;
+        color: #000;
+text-align: center;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 70px;
+    }
+}
+
+
+
+.box-intro{
+
+    &__ylw{
+        color: #000;
+text-align: center;
+font-family: Averta Demo PE Cutted Demo;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+max-width: 199px;
+margin-left: 40px;
+    }
+
+
+}

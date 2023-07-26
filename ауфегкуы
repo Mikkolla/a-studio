@@ -1,0 +1,55 @@
+<section class="features">
+			<div class="features__container">
+				<div class="text-info">
+                    <div class="help">
+                        How can we help your Business?
+                    </div>
+                    <div class="desc">
+                        We build readymade websites, mobile applications, and elaborate online business services.
+                    </div>
+                </div>
+                        <div class="main__block">
+                            <div class="background1">
+                                <div class="box1">
+                                    
+                                    <img  src="/img/features/blue.png" alt="blue">
+                                    
+                                </div>
+                            </div>
+                            
+
+                            <div class="background3">
+                                <div class="box3">
+                                    
+                                    <img src="/img/features/pink.png" alt="pink">
+                                </div>
+                            </div>
+                            
+
+
+                        </div>
+
+
+                        <div class="second__block">
+                            <div class="background2">
+                                <div class="box2">
+                                    <img src="/img/features/ylw.png" alt="ylw">
+                                </div>
+                            </div>
+                            
+                            <div class="background4">
+                                <div class="box4">
+                                    <img src="/img/features/grenn.png" alt="green">
+                                </div>
+    
+                            </div>
+                            
+                            
+                        </div>
+
+					</div>
+
+			
+
+
+				</section>

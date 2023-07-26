@@ -1,0 +1,21 @@
+.group-img {
+    @include tablet{
+        display: none;
+    }
+
+}
+.shadow {
+    padding-left: 200px;
+}
+.red {
+    padding-left: 70px;
+}
+.big {
+    padding-left: 179px;
+}
+.hat {
+    padding-left: 79px;
+}
+.smile {
+    padding-left: 160px;
+}
